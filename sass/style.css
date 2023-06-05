@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.on {
+  opacity: 1;
+}
+
+main section {
+  max-width: 100vw;
+}
+main section img {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+}
+main aside#setas {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+main aside#setas button {
+  background-color: rgba(0, 0, 0, 0.378);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+main aside#setas button:hover {
+  background-color: rgba(53, 52, 52, 0.378);
+}
+main aside#setas img.seta {
+  width: 30px;
+}
+main aside#setas #setaEsquerda {
+  transform: rotateZ(180deg);
+}/*# sourceMappingURL=style.css.map */

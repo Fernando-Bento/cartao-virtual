@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/style.css">
+    <title>Cartão de namoro</title>
+</head>
+<body>
+    <main>
+
+        <aside id="setas">
+
+            <button>
+                <img class="seta" id="setaEsquerda" src="img/arrow.png" alt="">
+            </button>
+            
+            <button>
+                <img class="seta" id="setaDireita" src="img/arrow.png" alt="">
+            </button>
+
+        </aside>
+
+        <section id="carrossel">
+
+            <picture>
+
+                <source media="(max-width: 600px)" srcset="img/imgmob/fogoMob.png">
+                
+                <img src="img/imgDsk/fogoDsk.png" alt="" class="on slide">
+
+            </picture>
+    
+            <picture>
+
+                <source media="(max-width: 600px)" srcset="img/imgmob/estrelaMob.png">
+
+                <img src="img/imgDsk/estrelaDsk.png" alt="" class="slide">
+
+            </picture>
+    
+            <picture>
+
+                <source media="(max-width: 600px)" srcset="img/imgmob/passaroMob.png">
+                <img src="img/imgDsk/passaroDsk.png" alt="" class="slide">
+
+            </picture>
+    
+            <picture>
+
+                <source media="(max-width: 600px)" srcset="img/imgmob/coracaoMob.png">
+                <img src="img/imgDsk/coracaoDsk.png" alt="" class="slide">
+
+            </picture>
+            
+        </section>
+
+        <script src="script.js" defer></script>
+
+    </main>
+</body>
+</html

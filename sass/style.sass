@@ -1,0 +1,42 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+main
+
+    section
+        max-width: 100vw
+        img
+            position: absolute
+            width: 100%
+            opacity: 0
+
+    aside#setas
+        position: fixed
+        z-index: 1
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        height: 100%
+
+        button
+            background-color: rgba(0, 0, 0, 0.378)
+            padding: 10px
+            border: none
+            cursor: pointer
+            transition: background-color .5s
+
+            &:hover
+                background-color: rgba(53, 52, 52, 0.378)
+
+        img.seta
+            width: 30px
+            
+        
+        #setaEsquerda
+            transform: rotateZ(180deg)
+
+.on
+    opacity: 1

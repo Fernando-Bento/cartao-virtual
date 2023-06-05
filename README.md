@@ -8,4 +8,10 @@ O objetivo deste projeto é proporcionar uma experiência virtual única para co
 
 O projeto é desenvolvido usando tecnologias web comuns, como HTML, CSS/SASS e JavaScript, é totalmente responsivo.
 
+## Versão Desktop
 
+![Capturarsad](https://github.com/Fernando-Bento/cartao-virtual/assets/98424711/ecbd4b5e-9857-44cb-9f5d-cf2305434edc)
+
+## Versão Mobile
+
+![dfg](https://github.com/Fernando-Bento/cartao-virtual/assets/98424711/35342424-a418-4a49-bb35-6c0ae6f64575)
